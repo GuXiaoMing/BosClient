@@ -1,0 +1,13 @@
+[BOS]
+host = bj.bcebos.com
+access_key_id = your_access_key_id
+secret_access_key = your_secret_access_key
+connection_timeout_in_mills = 5000
+# 64K
+send_buf_size = 65536
+recv_buf_size = 65536
+
+[LOG]
+rotate_day = 7
+#comma seperated email addresses
+alarm_receivers = mail_address0,mail_address1
